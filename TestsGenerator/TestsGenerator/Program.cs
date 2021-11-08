@@ -13,7 +13,8 @@ namespace TestsGenerator
 
             List<string> FilesPath = new List<string>() 
             {
-                "E:\\Documents\\University\\Марчук 951004\\3 курс\\5 семестр\\СПП\\Лабораторные работы\\SPP3\\AssemblyBrowser\\AssemblyBrowserLib\\AssemblyBrowser.cs"
+                "E:\\Documents\\University\\Марчук 951004\\3 курс\\5 семестр\\СПП\\Лабораторные работы\\SPP3\\AssemblyBrowser\\AssemblyBrowserLib\\AssemblyBrowser.cs",
+                "E:\\Documents\\University\\Марчук 951004\\3 курс\\5 семестр\\СПП\\Лабораторные работы\\SPP4\\TestsGenerator\\NUnitTests\\TwoClasses.cs"
             };
 
             Pipeline p = new Pipeline(new PipelineConfiguration(1, 1, 1));

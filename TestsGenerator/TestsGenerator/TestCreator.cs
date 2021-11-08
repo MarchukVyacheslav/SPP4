@@ -82,7 +82,7 @@ namespace TestsGenerator
                         QualifiedName(
                             IdentifierName("System"),
                             IdentifierName("Collections")),
-                        IdentifierName("Generic"))),
+                            IdentifierName("Generic"))),
 
                 UsingDirective(
                     QualifiedName(
