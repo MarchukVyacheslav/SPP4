@@ -15,7 +15,7 @@ namespace TestsGenerator
             PipelineConfig = pipelineConfig;
         }
 
-        public async Task Excute(List<string> filesPath, string outputPath)
+        public async Task Execute(List<string> filesPath, string outputPath)
         {
             // Блок чтения из файла
             var readingBlock = new TransformBlock<string, string>(
